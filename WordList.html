@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- <canvas id="myCanvas" width="410" height="255"></canvas> -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" /> 
+</head> 
+
+<body>
+ 
+<div class="help-tip">
+    <p>↵ Enter term and definition<br/>➘ Save edits<br/>▼ Download as a csv file <br/> ○ Look up on Google</p>
+</div>
+   
+<h1 id="ListHeader" contenteditable>WordList</h1>
+
+<tr><td><div contenteditable><table id="myTable"></ul>
+
+  <thead>
+      <tr contenteditable= "false">
+      <th><input id="input1" placeholder="Term" size="9"> </th>
+      <th><input id="input2" placeholder="Definition" size="39">  </th>
+      </tr>
+      </thead> 
+    </table>
+</div></td></tr>
+
+
+<button id=clean onclick="getElementById('clean').innerHTML = Date()">Clean</button>
+<button id=save_edits onclick="getElementById('save_edits').innerHTML = Date()">Save edits</button>
+<button id=download onclick="getElementById('download').innerHTML = Date()">Download</button>
+
+ 
+<form action="http://google.com/search" target="_blank">
+    <input id="searchbar" type="search" name="q" placeholder="Define using Google" size="439">
+</form>
+
+</body> 
+
+<script src="vocab.js"></script>
+
+
+</html>
