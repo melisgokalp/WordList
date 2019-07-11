@@ -1,10 +1,7 @@
 ## WordList
 Browser Extension for creating vocabulary lists and study notes. 
 
-Use WordLists to Learn new words by making lists and organize your learning.
-
 Anytime you come across a new word, add it to your list and keep them forever! Your lists will be on your browser for easy access while doing research or reading for pleasure.  
- 
  ![screenshot1](/images/listboard1.jpg)
 
 
